@@ -28,6 +28,8 @@ function countPoints(n) {                     // n is a Node
 }
 
 
+  
+
 
 $(document).ready(function(){
     console.log("site.js: document is ready");
@@ -47,8 +49,6 @@ $(document).ready(function(){
       var total = countPoints(document.body);
       $(".pointCount").html(total);
     }
-
-
-	       
+    
     console.log("site.js: done");
 });

@@ -1,59 +1,34 @@
-course: "CSxx"
-qtr: "W18"
-quarter: "Winter 2018"
-piazza_url: https://piazza.com/class/fillThisIn
-gauchospace_course_page: https://gauchospace.ucsb.edu/courses/course/view.php?id=tbd1234
-
-# ta_list: "Chris, Taylor and Jordan"
-ta_list: "list of TAs first names goes here"
-# ta_list_full: "Chris Washington, Taylor Smith and Jordan Adams"
-ta_list_full: "list of TA full names goes here"
-# mentors_list: "TBD"
-#discussion_section_times: "2pm, 4pm or 5pm"
-discussion_section_times: "fill this in"
-
-github_url: https://github.com/ucsb-cs56-w18/ucsb-cs56-w18.github.io
-mentor_url: https://ucsb-cs56-pconrad-mentors.github.io
+github_url: https://github.com/ucsb-cs8-w18/ucsb-cs8-w18-matni.github.io
 
 on_campus: http://proquest.safaribooksonline.com
 off_campus: http://proquest.safaribooksonline.com.proxy.library.ucsb.edu:2048
 
-submit_cs_course: CS56_f18
-
-start_week: 0
-start_date: 2018-01-07 00:00:00.00-8:00
-num_weeks: 11
+start_week: 1
+start_date: 2018-01-17 00:00:00.00-7:00
+num_weeks: 9
 extra_exam_week: true
-sections: "4pm,&nbsp;5pm or&nbsp;6pm"
+
+instructor_url: https://ucsb-cs8.github.io/instructor
 
 cal_dates: >
   [
-  {"label":"First day of classes", "date":"2018-01-16" },
-  {"label":"Univ Holiday", "date":"2018-01-15" },
-  {"label":"Last day to drop classes","date":"2018-02-05" },
-  {"label":"S18 Reg Pass 1 starts","date":"2018-02-05" },
-  {"label":"S18 Reg Pass 1 ends","date":"2018-02-17" },  
+  {"label":"First day of classes", "date":"2018-01-17" },
   {"label":"Univ Holiday", "date":"2018-02-19" },
-  {"label":"S18 Reg Pass 2 starts", "date":"2018-02-20" },
-  {"label":"S18 Reg Pass 2 ends", "date":"2018-03-09" },
-  {"label":"S18 Reg Pass 3 starts", "date":"2018-03-12" },
-  {"label":"Last day of instruction", "date":"2017-03-16" },
-  {"label":"Final Exams Start", "date":"2017-03-19" },
-  {"label":"Final Exams End", "date":"2017-03-23" }
+  {"label":"Last day of classes", "date":"2018-03-14" },			
   ]
 
-
+course: "CS8"
+legacy_wiki_name: 8wiki
+legacy_wiki_url: "https://foo.cs.ucsb.edu/8wiki" 
+qtr: "W18"
+quarter: "Winter 2018"
 
 kramdown:
    parse_block_html: true
 
+
 exclude:
    - vendor
-   - _hwk/keep
-   - _lab/keep
-   - _exam/keep
-   - _lectures/keep
-   - _info/keep        
 
 timezone: America/Los_Angeles
 
@@ -75,8 +50,9 @@ collections:
   lectures:
     output: true
     permalink: /lectures/:path/
-
-
+  hw:
+    output: true
+    permalink: /hw/:path/
 
 
 defaults:
@@ -85,12 +61,6 @@ defaults:
       path: "" # an empty string here means all files in the project
     values:
       layout: default
-  - 
-    scope:
-      path: ""
-      type: lectures
-    values:
-      layout: lecture
   - 
     scope:
       path: ""
@@ -121,3 +91,5 @@ defaults:
       type: info
     values:
       layout: handout
+
+

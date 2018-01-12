@@ -1,36 +1,31 @@
 ---
-title: "Syllabus, Course Name/Number, Quarter Year"
+title: "Syllabus, CMPSC 8, Spring 2017"
 layout: handout
-ready: false
+ready: true
 ---
 
-<div style="font-size:110%;" markdown="1">
+Basic Facts
+-----------
 
-TBD: Insert Syllabus Info here
+* **Instructor**:  [Ziad Matni](http://www.cs.ucsb.edu/~zmatni){: target="_blank"}<br/>
+Email: <zmatni@cs.ucsb.edu><br/>
+Office: SSMS 4409<br/><br/>
 
-Accommodations for disabilities
--------------------------------
+* **Lecture**: Tue. and Thu. 3:30-4:45pm BUCHN 1920, ATTENDANCE REQUIRED.
+* **Instructor Office Hours**: T 10:00am-12:00pm, SSMS 4409<br/><br/>
 
-Students with disabilities may request academic accommodations for exams online through the UCSB Disabled Students Program at http://dsp.sa.ucsb.edu/. Please make your requests for exam accommodations through the online system as early in the quarter as possible to ensure proper arrangement.
+* **Piazza Site**: [piazza.com/ucsb/spring2017/cs8](https://www.piazza.com/ucsb/spring2017/cs8){: target="_blank"}<br/>
+* **TAs and their Office Hours**:<br/>
+Shiyu Ji <shiyu@umail.ucsb.edu> Mondays 3pm-5pm.<br/>
+Mahnaz Koupaee <koupaee@umail.ucsb.edu> Wednesdays 10am-12pm.<br/>
+Sourav Medya <medya@umail.ucsb.edu> Thursdays 10am-12pm.<br/>
+Zhongqi Yi (Grader) <zhongqi_yi@umail.ucsb.edu><br/>
 
-Managing stress
----------------
+* **Lab**: (50 minute sections)<br/>
+Wed. starting at 3pm, 4pm, 5pm, 6pm, PHELP 3525, ATTENDANCE MANDATORY.<br/>
+* **Instructor's Policies**: See full syllabus for details.<br/>
 
-Personal concerns such as stress, anxiety, relationships, depression, cultural differences, can interfere with the ability of students to succeed and thrive. For helpful resources, please contact UCSB Counseling & Psychological Services (CAPS) at 805-893-4411 or visit http://counseling.sa.ucsb.edu/ .
+<strong>Please read the class syllabus in its entirety.</strong><br/>
 
-Responsible scholarship
------------------------
-
-Honesty and integrity in all academic work is essential for a valuable educational experience.  The Office of Judicial Affairs has policies, tips, and resources for proper citation use, recognizing actions considered to be cheating or other forms of academic theft, and students’ responsibilities, available on their website at: http://judicialaffairs.sa.ucsb.edu.  Students are responsible for educating themselves on the policies and to abide by them.
-
-Furthermore, for general academic support, students are encouraged to visit Campus Learning Assistance Services (CLAS) early and often. CLAS offers instructional groups, drop-in tutoring, writing and ESL services, skills workshops and one-on-one consultations. CLAS is located on the third floor of the Student Resource Building, or visit http://clas.sa.ucsb.edu
-
-Standard Disclaimer
--------------------
-
-This syllabus is as accurate as possible, but is subject to change at
-the instructor's discretion, within the bounds of UC policy.
-
-(end of syllabus)
-
-</div>
+[Full Class Syllabus](http://cs.ucsb.edu/~zmatni/syllabi/CS8S17_syllabus.pdf){: target="_blank"}
+----------------

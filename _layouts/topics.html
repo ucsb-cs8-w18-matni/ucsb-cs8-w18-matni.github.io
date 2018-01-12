@@ -7,9 +7,9 @@
   <body id="page-top">
     <div id="container" data-role="page">
     {% include nav.html %}
-    <h1>{{ page.team }}</h1>
-    <h2>{{ page.desc }}</h2>
     <div id="content"  class="ui-content">
+    <h1>{{page.topic}}</h1>
+    <p style="font-style:italic">{{page.desc}}</p>
     {{ content }}
     </div><!-- content -->
     {% include footer.html %}
