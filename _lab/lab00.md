@@ -1,10 +1,10 @@
 ---
 layout: lab
 num: lab00
-ready: true
+ready: false
 desc: "Lab00 - A Gentle Introduction"
-assigned: 2017-04-05 08:00:00.00-7
-due: 2017-04-07 23:59:59.00-7
+assigned: 2018-01-22 09:30:00.00-7
+due: 2018-01-24 08:00:00.00-7
 ---
 <h2>Introduction</h2>
 
