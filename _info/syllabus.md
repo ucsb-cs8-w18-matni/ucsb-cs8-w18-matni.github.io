@@ -18,9 +18,9 @@ Office: SSMS 4409<br/><br/>
 * **TAs and their Office Hours**:<br/>
 Shiyu Ji <shiyu@umail.ucsb.edu> TBD.<br/>
 Muqsit Nawaz <mmnawaz@umail.ucsb.edu> TBD. <br/> 
-Jian Jin <jian_jin@umail.ucsb.ed> TBD. <br/>u
-Yun Zhao <yunzhao@umail.ucsb.ed> TBD. <br/>u
-Vivek Pradhan (Grader) <vivekpradhan@umail.ucsb.ed>. <br/>u
+Jian Jin <jian_jin@umail.ucsb.ed> TBD. <br/>
+Yun Zhao <yunzhao@umail.ucsb.ed> TBD. <br/>
+Vivek Pradhan (Grader) <vivekpradhan@umail.ucsb.ed>. <br/>
 
 * **Lab**: (50 minute sections)<br/>
 Tuesdays 1pm, 2pm, 3pm, 4pm in PHELP 3525. ATTENDANCE MANDATORY.<br/>
