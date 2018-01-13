@@ -1,5 +1,5 @@
 ---
-title: "Syllabus, CMPSC 8, Spring 2017"
+title: "Syllabus, CMPSC 8, Winter 2018"
 layout: handout
 ready: true
 ---
@@ -11,21 +11,22 @@ Basic Facts
 Email: <zmatni@cs.ucsb.edu><br/>
 Office: SSMS 4409<br/><br/>
 
-* **Lecture**: Tue. and Thu. 3:30-4:45pm BUCHN 1920, ATTENDANCE REQUIRED.
-* **Instructor Office Hours**: T 10:00am-12:00pm, SSMS 4409<br/><br/>
+* **Lecture**: M & W 9:30 AM – 10:45 AM Location: Buchanan 1920. ATTENDANCE REQUIRED.
+* **Instructor Office Hours**: T 10:30am-11:30am, SSMS 4409<br/><br/>
 
-* **Piazza Site**: [piazza.com/ucsb/spring2017/cs8](https://www.piazza.com/ucsb/spring2017/cs8){: target="_blank"}<br/>
+* **Piazza Site**: [piazza.com/ucsb/winter2018/cs8](https://www.piazza.com/ucsb/winter2018/cs8){: target="_blank"}<br/>
 * **TAs and their Office Hours**:<br/>
-Shiyu Ji <shiyu@umail.ucsb.edu> Mondays 3pm-5pm.<br/>
-Mahnaz Koupaee <koupaee@umail.ucsb.edu> Wednesdays 10am-12pm.<br/>
-Sourav Medya <medya@umail.ucsb.edu> Thursdays 10am-12pm.<br/>
-Zhongqi Yi (Grader) <zhongqi_yi@umail.ucsb.edu><br/>
+Shiyu Ji <shiyu@umail.ucsb.edu> TBD.<br/>
+Muqsit Nawaz <mmnawaz@umail.ucsb.edu> TBD. <br/> 
+Jian Jin <jian_jin@umail.ucsb.ed> TBD. <br/>u
+Yun Zhao <yunzhao@umail.ucsb.ed> TBD. <br/>u
+Vivek Pradhan (Grader) <vivekpradhan@umail.ucsb.ed>. <br/>u
 
 * **Lab**: (50 minute sections)<br/>
-Wed. starting at 3pm, 4pm, 5pm, 6pm, PHELP 3525, ATTENDANCE MANDATORY.<br/>
+Tuesdays 1pm, 2pm, 3pm, 4pm in PHELP 3525. ATTENDANCE MANDATORY.<br/>
 * **Instructor's Policies**: See full syllabus for details.<br/>
 
 <strong>Please read the class syllabus in its entirety.</strong><br/>
 
-[Full Class Syllabus](http://cs.ucsb.edu/~zmatni/syllabi/CS8S17_syllabus.pdf){: target="_blank"}
+[Full Class Syllabus](http://cs.ucsb.edu/~zmatni/syllabi/CS8W18_syllabus.pdf){: target="_blank"}
 ----------------
