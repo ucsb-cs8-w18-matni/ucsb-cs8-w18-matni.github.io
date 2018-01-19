@@ -337,7 +337,7 @@ in a new window.</li>
 
 <p>After the 1 minute delay, the submit system will show your score and give you feedback on your submission. <em>Refresh the webpage after a minute to see this information.</em> This usually takes one of three forms:</p>
 
-<p>A correct submission with a score of 100 (in the special case of Lab00, the score should be 50, since the Hw00 is worth 50 points too). This means that your program passed all the tests for this assignment. Once you get to this point, you are finished with the assignment and will receive full credit. This case will look like this:</p>
+<p>A correct submission with a score of 100 (in the special case of Lab00, the score should be 50, since the Hw00 is worth 50 points too). This means that your program passed all the tests for this assignment. Once you get to this point, you are finished with the assignment and will receive full credit. This case will look like this (except the number under "Value" will say 50, not 100):</p>
 <img src="correct-submission.png" width="233" alt="Correct Submission." />
 
 <p>An incorrect submission with a score of 0 to 49. This means that your program failed 1 or more of the tests. For this assignment, the system will show both the expected output and the output your program generated side-by-side so that you can see what went wrong. You will need to fix your program, and then do Step 8 again to re-submit. This case will look like this:</p>
