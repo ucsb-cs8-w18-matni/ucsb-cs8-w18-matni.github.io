@@ -340,7 +340,7 @@ in a new window.</li>
 <p>A correct submission with a score of 100 (in the special case of Lab00, the score should be 50, since the Hw00 is worth 50 points too). This means that your program passed all the tests for this assignment. Once you get to this point, you are finished with the assignment and will receive full credit. This case will look like this:</p>
 <img src="correct-submission.png" width="233" alt="Correct Submission." />
 
-<p>An incorrect submission with a score of 0 to 99. This means that your program failed 1 or more of the tests. For this assignment, the system will show both the expected output and the output your program generated side-by-side so that you can see what went wrong. You will need to fix your program, and then do Step 8 again to re-submit. This case will look like this:</p>
+<p>An incorrect submission with a score of 0 to 49. This means that your program failed 1 or more of the tests. For this assignment, the system will show both the expected output and the output your program generated side-by-side so that you can see what went wrong. You will need to fix your program, and then do Step 8 again to re-submit. This case will look like this:</p>
 <img src="incorrect-submission.png" width="706" alt="Incorrect Submission." />
 
 <p>Or a submission for which compilation failed. This means that your program caused compilation errors when the system tried to compile it. You will need to interpret the compiler output and fix the errors. The system will show you the compilation command that failed along with the full error message. This case will look like this:</p>
