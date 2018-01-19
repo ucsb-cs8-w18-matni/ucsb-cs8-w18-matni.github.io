@@ -340,10 +340,10 @@ in a new window.</li>
 <p>A correct submission with a score of 100 (in the special case of Lab00, the score should be 50, since the Hw00 is worth 50 points too). This means that your program passed all the tests for this assignment. Once you get to this point, you are finished with the assignment and will receive full credit. This case will look like this (except the number under "Value" will say 50, not 100):</p>
 <img src="correct-submission.png" width="233" alt="Correct Submission." />
 
-<p>An incorrect submission with a score of 0 to 49. This means that your program failed 1 or more of the tests. For this assignment, the system will show both the expected output and the output your program generated side-by-side so that you can see what went wrong. You will need to fix your program, and then do Step 8 again to re-submit. This case will look like this:</p>
+<p>An incorrect submission with a score of 0 to 49. This means that your program failed 1 or more of the tests. For this assignment, the system will show both the expected output and the output your program generated side-by-side so that you can see what went wrong. You will need to fix your program, and then do Step 8 again to re-submit. This case will look like or similar to this (maybe slightly different wording):</p>
 <img src="incorrect-submission.png" width="706" alt="Incorrect Submission." />
 
-<p>Or a submission for which compilation failed. This means that your program caused compilation errors when the system tried to compile it. You will need to interpret the compiler output and fix the errors. The system will show you the compilation command that failed along with the full error message. This case will look like this:</p>
+<p>Or a submission for which compilation failed. This means that your program caused compilation errors when the system tried to compile it. You will need to interpret the compiler output and fix the errors. The system will show you the compilation command that failed along with the full error message. This case will look like this (again, with maybe slightly different wording):</p>
 <img src="compilation-failure.png" width="499" alt="Compilation Failure." />
 
 <p>Ask your T.A. if you do not understand this crucial step.</p>
@@ -364,7 +364,7 @@ In fact, you should do this every time you walk away from a lab computer, either
  
 <table bgcolor="lightcyan" border="1" cellpadding="4"><tbody><tr><td>
 <strong>Second partner should now log in and redo Steps 2 through 8.</strong>
-<br\>The first partner should not leave though: help your partner out. Things should go much more quickly and smoothly the second time through.
+ The first partner should not leave though: help your partner out. Things should go much more quickly and smoothly the second time through.
 </td></tr></tbody></table>
 
 <hr>
@@ -415,4 +415,4 @@ you may leave early, but only after you are sure that nobody needs your help.</p
  <p>If someone is asking for your password over email, it is a scam called a &quot;phishing attack&quot;&mdash;don't be fooled by these dastardly villains!'</p>
 
 <hr>
-<p>Copyright 2018, Ziad Matni, CS Dept, UC Santa Barbara. Permission to copy for non-commercial, non-profit, educational purposes granted, provided appropriate credit is given;  all other rights reserved.</p>
+<p>Copyright 2018, Ziad Matni, CS Dept, UC Santa Barbara. Based in part on work by Phillip Conrad. Permission to copy for non-commercial, non-profit, educational purposes granted, provided appropriate credit is given;  all other rights reserved.</p>
