@@ -69,7 +69,6 @@ challenging. We hope that will not be the case in future labs!</p>
    <li>Once you create the account, it may take several minutes before the account is active.</li>
    <li>After waiting 5-10 minutes, try logging in.</li>
   </ul>
-  <p>Problems? Scroll to the <a href="#problem">bottom</a> of this web page to find out what to do.</p>
 
 <h4>Notes:</h4>
  <ul>
@@ -177,47 +176,47 @@ csil.cs.ucsb.edu
   
 <h4>If you are in CSIL instead</h4>
 <p>If you are working in CSIL, we need to make sure your username/password also work on the Phelps 3525 computers.<br\>
-    <br\>
-  The instructions are exactly the same as those for Phelps 3525, except start by entering this command:</p>
+<br\>
+The instructions are exactly the same as those for Phelps 3525, except start by entering this command:</p>
 
 <pre>ssh linux.engr.ucsb.edu</pre>
 <p>Please follow the instructions above, and make sure that everything works properly.</p>
 
 <h3>Step 4: Create some directories</h3>
 <p>At the command prompt, we are going to type several commands to create folders
- (called &quot;directories&quot;) on Linux in which you can store your programs. The
- commands are shown in the box below&mdash;but first, a little explanation.</p>
+(called &quot;directories&quot;) on Linux in which you can store your programs. The
+commands are shown in the box below&mdash;but first, a little explanation.</p>
 
- <p>Each of the <strong>cd</strong> commands shown below is a command to &quot;change
- directory&quot;&mdash;that is to move into a different folder on the hard drive. </p>
+<p>Each of the <strong>cd</strong> commands shown below is a command to &quot;change
+directory&quot;&mdash;that is to move into a different folder on the hard drive. </p>
 
- <ul>
-   <li>When you type <strong>cd</strong> by itself, it takes you to your
-  'home directory'.</li>
-   <li>cd followed by a directory name (e.g. <strong>cd cs8</strong>) moves you into
-   a directory under the current one</li>
-  </ul>
+<ul>
+<li>When you type <strong>cd</strong> by itself, it takes you to your
+'home directory'.</li>
+<li>cd followed by a directory name (e.g. <strong>cd cs8</strong>) moves you into
+a directory under the current one</li>
+</ul>
 
- <p>Each of the <strong>mkdir</strong> commands &quot;makes a new directory&quot; (i.e. a new folder). </p>
+<p>Each of the <strong>mkdir</strong> commands &quot;makes a new directory&quot; (i.e. a new folder). </p>
 
- <ul>
-   <li>For example,<strong> mkdir cs8</strong> creates a new directory called cs8,
-	inside the current directory.</li>
-  </ul>
+<ul>
+<li>For example,<strong> mkdir cs8</strong> creates a new directory called cs8,
+inside the current directory.</li>
+</ul>
 
- <p>Each of the pwd commands &quot;prints the working directory&quot;, i.e. it tells you where you are on the hard drive.</p> 
- 
- <ul>
-   <li>Your home directory is something like <strong>/cs/student/jsmith</strong>
- or <strong>/engr/student/mdiaz</strong></li>
-   <li>Under that, you might have a directory cs8&mdash;that would show up as
- <strong>/cs/student/jsmith/cs8</strong>, or <strong>/engr/student/mdiaz/cs8</strong></li>
- </ul>
- 
- <p>At the command prompt, type each of these commands. What you type is shown in bold.
- You should get back exactly the output shown, (except that the part in italics may be different&mdash;each user will have something different show up there.)</p>
+<p>Each of the pwd commands &quot;prints the working directory&quot;, i.e. it tells you where you are on the hard drive.</p> 
 
- <pre>-bash-4.2$ <strong>cd</strong>
+<ul>
+<li>Your home directory is something like <strong>/cs/student/jsmith</strong>
+or <strong>/engr/student/mdiaz</strong></li>
+<li>Under that, you might have a directory cs8&mdash;that would show up as
+<strong>/cs/student/jsmith/cs8</strong>, or <strong>/engr/student/mdiaz/cs8</strong></li>
+</ul>
+
+<p>At the command prompt, type each of these commands. What you type is shown in bold.
+You should get back exactly the output shown, (except that the part in italics may be different&mdash;each user will have something different show up there.)</p>
+
+<pre>-bash-4.2$ <strong>cd</strong>
 -bash-4.2$ <strong>pwd</strong>
 /<em>cs</em>/<em>student</em>/<em>yourusername</em>
 -bash-4.2$ <strong>mkdir cs8</strong>
@@ -232,57 +231,57 @@ csil.cs.ucsb.edu
 -bash-4.2$ <strong>pwd</strong>
 /<em>cs</em>/<em>student</em>/<em>yourusername</em></pre>
 
- <h4>Checking if it worked</h4>
+<h4>Checking if it worked</h4>
 
- <p>To see if it worked, you can use the file manager on the desktop. Drag any windows
- that might be covering up the &quot;Home&quot; icon
- on your desktop&mdash;it should be near the upper left hand corner of the screen.
- When you double click on this icon, it will bring up your home directory. You should
- see inside a folder called cs8. If you double click on that, you should see inside
- of it, a folder called lab00.</p>
+<p>To see if it worked, you can use the file manager on the desktop. Drag any windows
+that might be covering up the &quot;Home&quot; icon
+on your desktop&mdash;it should be near the upper left hand corner of the screen.
+When you double click on this icon, it will bring up your home directory. You should
+see inside a folder called cs8. If you double click on that, you should see inside
+of it, a folder called lab00.</p>
 
- <p>Note that you could also use mouse clicks and menu options to create these folders,
- instead of the command line. If you have trouble with the command line, then for today,
- it is ok to do it that way. </p>
+<p>Note that you could also use mouse clicks and menu options to create these folders,
+instead of the command line. If you have trouble with the command line, then for today,
+it is ok to do it that way. </p>
 
- <p>Eventually, though, we want you to learn some of the Unix commands 
-  also&mdash;the reasons it is important to know both will become more clear 
-  as you move deeper into the study of programming and Computer Science.</p>
+<p>Eventually, though, we want you to learn some of the Unix commands 
+also&mdash;the reasons it is important to know both will become more clear 
+as you move deeper into the study of programming and Computer Science.</p>
 
 <h3>Step 5: Bring up the program called IDLE</h3>
 
- <p>The preliminaries are done&mdash;now we are ready to start saving files
+<p>The preliminaries are done&mdash;now we are ready to start saving files
 for Python!</p>
 
- <p>IDLE is a piece of software that you use to interact with the Python programming
- language. As we are using Python version 3 in this class, we also use IDLE version 3.
- Type the following at the command prompt:</p>
+<p>IDLE is a piece of software that you use to interact with the Python programming
+language. As we are using Python version 3 in this class, we also use IDLE version 3.
+Type the following at the command prompt:</p>
 
- <pre>-bash-4.2$ <strong>idle3</strong></pre>
+<pre>-bash-4.2$ <strong>idle3</strong></pre>
 
- <p>The window that appears should have the Python Command prompt (&gt;&gt;&gt;)
- in it.</p>
+<p>The window that appears should have the Python Command prompt (&gt;&gt;&gt;)
+in it.</p>
 
- <ul>
-   <li>This is sometimes called the &quot;Python Command Prompt&quot; window.</li>
-   <li>This is also called the &quot;Python Shell&quot; window.</li>
- </ul>
+<ul>
+<li>This is sometimes called the &quot;Python Command Prompt&quot; window.</li>
+<li>This is also called the &quot;Python Shell&quot; window.</li>
+</ul>
 
- <p>When you have the IDLE window up, you are ready for the next step.</p>
+<p>When you have the IDLE window up, you are ready for the next step.</p>
 
 <h3>Step 6: Save a file in IDLE</h3>
 
 <p>In IDLE, select &quot;File=&gt;New Window&quot; to open a new &quot;untitled&quot;
- window for Python code.</p>
+window for Python code.</p>
 
 <p>When it comes up, click and drag the window by its title bar over to the right
- of your Python Shell window.</p>
+of your Python Shell window.</p>
 
 <p>Then, open a web browser to the link below. </p>
 
 <ul>
-  <li>Hint: You may be able to use right-click (control-click on Mac), to open this link
-  in a new window.</li>
+<li>Hint: You may be able to use right-click (control-click on Mac), to open this link
+in a new window.</li>
 </ul>
 
 <p><a href="http://www.cs.ucsb.edu/~zmatni/cs8w17/labs/lab00/hello.py">http://www.cs.ucsb.edu/~zmatni/cs8w17/labs/lab00/hello.py</a></p>
@@ -290,8 +289,8 @@ for Python!</p>
 <p>Go ahead and read it and see if you can guess what it might do. Then "select all" of the text, "copy" it and "paste" it into the new &quot;untitled&quot; window.</p>
 
 <ul>
-  <li>Note: if the usual keystrokes for copy and paste are not working, try the menu options under &quot;Edit&quot; for copy and paste.</li>
-  </ul>
+<li>Note: if the usual keystrokes for copy and paste are not working, try the menu options under &quot;Edit&quot; for copy and paste.</li>
+</ul>
 
 <p>At the top of the file, type "Copied by: " followed by your name and, if another student is working with you today, the other student's name on the same line as yours.  Make sure you type "Copied by:" exactly as shown, including capitalization.</p>
 
@@ -320,7 +319,7 @@ for Python!</p>
 
 <p>Next, you need to join the CS8 course. Look for the "Join Class" link at the top of the page. It is in the top bar. The class, in this system, is called: <b>CS8_w18_matni</b>. Once you see the list of all courses, click on the <b>"Join CS8_w18_matni"</b> button.</p>
 
-<p><b>BE AWARE THAT THERE IS ANOTHER SECTION OF CS8 GOING ON THIS QUARTER AND THEY TOO ARE USING SUBMIT.CS. DO NOT SUBMIT YOUR WORK IN THE OTHER CLASS SECTION ACCOUT. MAKE SURE THAT YOU ARE SUBMITTING TO CS8_w18_matni.</b></p>
+<p><b>BE AWARE THAT THERE IS ANOTHER SECTION OF CS8 GOING ON THIS QUARTER AND THEY TOO ARE USING SUBMIT.CS. DO NOT SUBMIT YOUR WORK IN THE OTHER CLASS SECTION ACCOUT. MAKE SURE THAT YOU ARE SUBMITTING TO <font color="red"> CS8_w18_matni.</font></b></p>
 
 <p>You should then see CS8 appear on your homepage when logging in to the submit.cs system. Click on the course now.</p>
 
