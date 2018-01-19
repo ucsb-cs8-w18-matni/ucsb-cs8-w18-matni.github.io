@@ -415,4 +415,4 @@ you may leave early, but only after you are sure that nobody needs your help.</p
  <p>If someone is asking for your password over email, it is a scam called a &quot;phishing attack&quot;&mdash;don't be fooled by these dastardly villains!'</p>
 
 <hr>
-<font size="9"><p>Copyright 2018, Ziad Matni, CS Dept, UC Santa Barbara. Based in part on work by Phillip Conrad. Permission to copy for non-commercial, non-profit, educational purposes granted, provided appropriate credit is given;  all other rights reserved.</font></p>
+<p><font size="1">Copyright 2018, Ziad Matni, CS Dept, UC Santa Barbara. Based in part on work by Phillip Conrad. Permission to copy for non-commercial, non-profit, educational purposes granted, provided appropriate credit is given;  all other rights reserved.</font></p>
