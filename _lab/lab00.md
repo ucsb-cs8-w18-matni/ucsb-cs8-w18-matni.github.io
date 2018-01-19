@@ -364,7 +364,7 @@ In fact, you should do this every time you walk away from a lab computer, either
  
 <table bgcolor="lightcyan" border="1" cellpadding="4"><tbody><tr><td>
 <strong>Second partner should now log in and redo Steps 2 through 8.</strong>
- The first partner should not leave though: help your partner out. Things should go much more quickly and smoothly the second time through.
+<br>The first partner should not leave though: help your partner out. Things should go much more quickly and smoothly the second time through.
 </td></tr></tbody></table>
 
 <hr>
@@ -415,4 +415,4 @@ you may leave early, but only after you are sure that nobody needs your help.</p
  <p>If someone is asking for your password over email, it is a scam called a &quot;phishing attack&quot;&mdash;don't be fooled by these dastardly villains!'</p>
 
 <hr>
-<p>Copyright 2018, Ziad Matni, CS Dept, UC Santa Barbara. Based in part on work by Phillip Conrad. Permission to copy for non-commercial, non-profit, educational purposes granted, provided appropriate credit is given;  all other rights reserved.</p>
+<font size="9"><p>Copyright 2018, Ziad Matni, CS Dept, UC Santa Barbara. Based in part on work by Phillip Conrad. Permission to copy for non-commercial, non-profit, educational purposes granted, provided appropriate credit is given;  all other rights reserved.</font></p>
