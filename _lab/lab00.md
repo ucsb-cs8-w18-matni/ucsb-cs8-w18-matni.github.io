@@ -4,7 +4,7 @@ num: lab00
 ready: true
 desc: "Lab00 - A Gentle Introduction"
 assigned: 2018-01-23 09:00:00.00-7
-due: 2018-01-24 11:59:59.00-7
+due: 2018-01-24 23:59:59.00-7
 ---
 <h2>Introduction</h2>
 
