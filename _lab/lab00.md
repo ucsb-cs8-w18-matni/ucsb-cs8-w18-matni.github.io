@@ -87,8 +87,8 @@ challenging. We hope that will not be the case in future labs!</p>
  </p>
 
 <table bgcolor="lightcyan" border="1" cellpadding="4"><tbody><tr><td>
-   <strong>Steps 2 through 8 below must be done once for each lab partner.</strong>
-   <br>First complete these steps for whichever partner is currently logged on. After Step 8,
+   <strong>Steps 2 through 7 below must be done once for each lab partner.</strong>
+   <br>First complete these steps for whichever partner is currently logged on. After Step 7,
    you must go back and redo the steps using the other partner's account.
 </td></tr></tbody></table>
 
@@ -105,84 +105,7 @@ challenging. We hope that will not be the case in future labs!</p>
    <li>A Terminal Window should pop up.</li>
   </ul>
 
-<h3>Step 3: Make sure your username/password work on both systems</h3>
- <p>If you are working in Phelps 3525, before we go any further, we need to make sure
-  that your username/password also work on the CSIL computers.</p>
-
- <p>If you are working in CSIL (e.g. because you missed the first week's lab and are making
- it up by working in CSIL), we need to make sure your username/password also work on the
-  Phelps 3525 computers.</p>
-
- <p>This is just a &quot;check&quot; to see if there are any problems with your account.</p>
-
- <h4>What we are going to do</h4>
-
- <p>We will try your username/password over the internet using a program called ssh, which
- stands for secure shell.</p>
- <ul>
-   <li>If we are successful, we'll just immediately log out, and move on to Step 6. </li>
-   <li>If it doesn't work after 15 minutes, we'll need you to send an email to support.</li>
-  </ul>
-
- <h4>Here's how to do it (if you are in Phelps 3525)</h4>
-
- <p>In the Terminal Window that you brought up in the previous step, enter the following
- command:</p>
- <pre>ssh csil.cs.ucsb.edu</pre>
-
- <p>When you type this at the Unix command line, you may see something like this:</p>
-
- <pre>-bash-4.2$ <strong>ssh csil.cs.ucsb.edu</strong>
-The authenticity of host 'csil.cs.ucsb.edu (128.111.43.14)' can't be established.
-RSA key fingerprint is 90:ab:6a:31:0b:81:62:25:9b:11:50:05:18:d3:1a:b5.
-Are you sure you want to continue connecting (yes/no)?</pre>
-
- <p>Answer the question by typing <strong>yes</strong>, and pressing &quot;enter&quot;
- (or &quot;return&quot;)</p>
-
- <p>Then, you'll be prompted for your password.</p>
-
- <p><strong>Again, don't worry if nothing appears on the screen while you are typing your password.</strong></p>
-
- <p>If it worked, you'll see something like this:</p>
-
- <pre>jimbo@csil.cs.ucsb.edu's password: 
-Last login: Tue Dec 30 12:27:04 2014 from linux32.engr.ucsb.edu
-
-Welcome to Computer Science's Remote Access server -- csil.cs.ucsb.edu
-
-You may run your graphically intensive programs on specific workstations in CSIL.
--bash-4.2$</pre>
-
-<p>Now we know that you can connect to CSIL.</p>
-
-<table bgcolor="yellow" border="1" cellpadding="4"><tbody><tr><td>
-   <strong>Get your TA's 'attention so he/she can verify you are logged into CSIL. And turn in Hw0 at this time too.</strong>
-</td></tr></tbody></table>
-
-<p>Then exit from the session on CSIL by typing the word <strong>exit</strong>,
- like this:</p>
-
- <pre>-bash-4.2$ <strong>exit</strong>
-logout
-Connection to csil.cs.ucsb.edu closed.
--bash-4.2$ </pre>
-
-<p>If you are ever not sure whether you are logged in to CSIL or not, you can type the command <strong>hostname</strong> at the command prompt. If you are logged into CSIL, it will look like this:</p>
-
-<pre>-bash-4.2$ <strong>hostname</strong>
-csil.cs.ucsb.edu
--bash-4.2$ </pre>
-  
-<h4>If you are in CSIL instead</h4>
-<p>If you are working in CSIL, we need to make sure your username/password also work on the Phelps 3525 computers.<br\>
-<br\>
-The instructions are exactly the same as those for Phelps 3525, except start by entering this command:</p>
-
-<pre>ssh linux.engr.ucsb.edu</pre>
-<p>Please follow the instructions above, and make sure that everything works properly.</p>
-
-<h3>Step 4: Create some directories</h3>
+<h3>Step 3: Create some directories</h3>
 <p>At the command prompt, we are going to type several commands to create folders
 (called &quot;directories&quot;) on Linux in which you can store your programs. The
 commands are shown in the box below&mdash;but first, a little explanation.</p>
@@ -248,7 +171,7 @@ it is ok to do it that way. </p>
 also&mdash;the reasons it is important to know both will become more clear 
 as you move deeper into the study of programming and Computer Science.</p>
 
-<h3>Step 5: Bring up the program called IDLE</h3>
+<h3>Step 4: Bring up the program called IDLE</h3>
 
 <p>The preliminaries are done&mdash;now we are ready to start saving files
 for Python!</p>
@@ -269,7 +192,7 @@ in it.</p>
 
 <p>When you have the IDLE window up, you are ready for the next step.</p>
 
-<h3>Step 6: Save a file in IDLE</h3>
+<h3>Step 5: Save a file in IDLE</h3>
 
 <p>In IDLE, select &quot;File=&gt;New Window&quot; to open a new &quot;untitled&quot;
 window for Python code.</p>
@@ -296,12 +219,12 @@ in a new window.</li>
 
 <p>You'll have to save the file. Save the file with the name hello.py inside the cs8/lab00 folder you created in the previous step. Files with names ending in .py are typically understood to be Python programs.</p>
 
-<h3>Step 7. Run your Python program</h3>
+<h3>Step 6. Run your Python program</h3>
 
 <p>In your IDLE window where you copied the hello.py text, pull down the menu tab that says "Run" and select "Run Module".</p>
 <p>What happens?</p>
 
-<h3>Step 8. Submit your assignment using the submit.cs program</h3>
+<h3>Step 7. Submit your assignment using the submit.cs program</h3>
 
 <p>Once you are satisfied that your program is correct, then it is time to submit it.</p>
 
@@ -333,14 +256,14 @@ in a new window.</li>
 
 <p>Once you submit, you should see a page detailing your submission. The system will automatically grade your program and will show you the results on this page after about a 1 minute delay.</p>
 
-<h3>Step 9: Check Submission Results</h3>
+<h3>Step 8: Check Submission Results</h3>
 
 <p>After the 1 minute delay, the submit system will show your score and give you feedback on your submission. <em>Refresh the webpage after a minute to see this information.</em> This usually takes one of three forms:</p>
 
 <p>A correct submission with a score of 100 (in the special case of Lab00, the score should be 50, since the Hw00 is worth 50 points too). This means that your program passed all the tests for this assignment. Once you get to this point, you are finished with the assignment and will receive full credit. This case will look like this (except the number under "Value" will say 50, not 100):</p>
 <img src="correct-submission.png" width="233" alt="Correct Submission." />
 
-<p>An incorrect submission with a score of 0 to 49. This means that your program failed 1 or more of the tests. For this assignment, the system will show both the expected output and the output your program generated side-by-side so that you can see what went wrong. You will need to fix your program, and then do Step 8 again to re-submit. This case will look like or similar to this (maybe slightly different wording):</p>
+<p>An incorrect submission with a score of 0 to 49. This means that your program failed 1 or more of the tests. For this assignment, the system will show both the expected output and the output your program generated side-by-side so that you can see what went wrong. You will need to fix your program, and then do Step 7 again to re-submit. This case will look like or similar to this (maybe slightly different wording):</p>
 <img src="incorrect-submission.png" width="706" alt="Incorrect Submission." />
 
 <p>Or a submission for which compilation failed. This means that your program caused compilation errors when the system tried to compile it. You will need to interpret the compiler output and fix the errors. The system will show you the compilation command that failed along with the full error message. This case will look like this (again, with maybe slightly different wording):</p>
@@ -352,7 +275,7 @@ in a new window.</li>
 
 <p>Once your submission receives a score of 100/100, you are done with this assignment. Congratulations on completing your first Python programs!</p>
 
-<h3>Step 10. Log Out</h3>
+<h3>Step 9. Log Out</h3>
 <p>Actually, this is the final step of <em>every lab</em>, but we probably won't remind you again after this one.
 In fact, you should do this every time you walk away from a lab computer, either in Phelps 3525 or CSIL.</p>
 
@@ -363,7 +286,7 @@ In fact, you should do this every time you walk away from a lab computer, either
   </ul>
  
 <table bgcolor="lightcyan" border="1" cellpadding="4"><tbody><tr><td>
-<strong>Second partner should now log in and redo Steps 2 through 8.</strong>
+<strong>Second partner should now log in and redo Steps 2 through 7.</strong>
 <br>The first partner should not leave though: help your partner out. Things should go much more quickly and smoothly the second time through.
 </td></tr></tbody></table>
 
