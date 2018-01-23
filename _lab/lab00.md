@@ -296,7 +296,7 @@ In fact, you should do this every time you walk away from a lab computer, either
 <em>Each</em> student must accomplish the following to earn full credit for this lab:
  <ul>
    <li>Turn in a complete and accurate Hw0 - your TA should have collected it earlier.</li>
-   <li>hello.py is complete, with "Copied by:" and your name, and is saved in ~/cs8/lab00/.</li>
+   <li>hello.py is complete, with "# Copied by:" and your name, and is saved in ~/cs8/lab00/.</li>
    <li>hello.py is turned in from your user account using submit.cs.
    <!--<br><b>Deadline for after-lab submission: Wednesday, 1/23, at 11:59 PM.</b>
       <br><i>Note that to be eligible for late turn-in with credit, you MUST have attended your entire lab period.</i>--></li>
