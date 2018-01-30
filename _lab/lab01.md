@@ -329,10 +329,10 @@ You should see output like this.  It may be a little overwhelming at first, but 
 
 
 ```text
-169-231-175-204:lab01 pconrad$ python3 -m pytest convert.py
+169-231-175-204:lab01 zmatni$ python3 -m pytest convert.py
 ==================================== test session starts ====================================
 platform darwin -- Python 3.6.2, pytest-3.2.1, py-1.4.34, pluggy-0.4.0
-rootdir: /Users/pconrad/github/ucsb-cs8/Lecture5_0816/lab01, inifile:
+rootdir: /Users/zmatni/github/ucsb-cs8/Lecture5_0816/lab01, inifile:
 collected 4 items                                                                            
 
 convert.py ..FF
@@ -359,7 +359,7 @@ E       +    where <function approx at 0x1026c40d0> = pytest.approx
 
 convert.py:19: AssertionError
 ============================ 2 failed, 2 passed in 0.03 seconds =============================
-169-231-175-204:lab01 pconrad$ 
+169-231-175-204:lab01 zmatni$ 
 ```
 
 Ok, let's now break down this output.
@@ -493,16 +493,16 @@ python3 -m pytest convert.py
 When you see four passing tests, your output will look like this. Also, the last line will be a pleasant shade of green instead of an angry looking red.
 
 ```
-169-231-175-204:lab01 pconrad$ python3 -m pytest convert.py
+169-231-175-204:lab01 zmatni$ python3 -m pytest convert.py
 ======================== test session starts =========================
 platform darwin -- Python 3.6.2, pytest-3.2.1, py-1.4.34, pluggy-0.4.0
-rootdir: /Users/pconrad/github/ucsb-cs8/Lecture5_0816/lab01, inifile:
+rootdir: /Users/zmatni/github/ucsb-cs8/Lecture5_0816/lab01, inifile:
 collected 4 items                                                     
 
 convert.py ....
 
 ====================== 4 passed in 0.01 seconds ======================
-169-231-175-204:lab01 pconrad$ 
+169-231-175-204:lab01 zmatni$ 
 ```
 
 At that point, you are ready to submit your work to submit.cs
