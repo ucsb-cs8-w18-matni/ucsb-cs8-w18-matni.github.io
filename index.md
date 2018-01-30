@@ -2,7 +2,7 @@
 title: CS8, Winter 2018, zmatni
 ---
 
-# {{site.course}}, {{site.quarter}}
+# {{site.course}}, {{site.quarter}}, Matni
 
 
 <div id="info" data-role="collapsible" data-collapsed="false">
