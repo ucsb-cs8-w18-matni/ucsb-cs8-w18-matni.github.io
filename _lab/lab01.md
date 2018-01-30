@@ -510,7 +510,15 @@ At that point, you are ready to submit your work to submit.cs
 # Step 8: Submit your `convert.py` file to submit.cs
 
 Navigate to that page, and upload your `convert.py` file.
-EDIT: You will see 100/100 points, if it passes the tests. 
+EDIT: You will see 50/50 points, if it passes the tests. 
+
+Or, if you are working on the ECI/CSIL/lab linux systems, you can also *OPTIONALLY* submit at the command line with this command, provided you are in the correct folder/diretory:
+
+```
+~submit/submit -p 946 convert.py
+```
+
+The first time you use this method, it will ask for your email address: use your full umail address (e.g. cgaucho@umail.ucsb.edu). For password, use the password that you enter for the submit.cs system. You may save these credentials if you don’t want to have to type them in every time.
 
 <hr>
 <p><font size="1">
