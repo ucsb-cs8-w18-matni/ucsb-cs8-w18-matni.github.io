@@ -1,7 +1,7 @@
 ---
 num: "lect06"
-desc: "Lecture #6 slides: Finding Pi & Intro to Strings"
-ready: false
+desc: "Lecture #6 slides: Finding Pi"
+ready: true
 pdfurl: /lectures/CS8_Lecture6.pdf
 ---
 
