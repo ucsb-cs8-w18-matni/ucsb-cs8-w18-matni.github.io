@@ -35,7 +35,11 @@ cp ~zmatni/public_html/cs8w18/labs/lab02/lab02.py ./lab02.py
 **Step 2:** Bring up IDLE as usual, and open a new window for function definitions
 Start IDLE. Then, select &quot;File-&gt;Open&quot; and open the lab02.py file. Put your names and today's date in the appropriate comment and save your file as <b>lab02.py</b> inside your lab02 directory.
 
-Note that line 9 has the comment <pre># IMPORTANT: Students: do not change any part of the code below</pre>. <b>IMPORTANT:</b> MAKE SURE THAT YOU DO NOT MAKE ANY CHANGES TO THE CODE BELOW THAT LINE!!!
+Note that line 9 has the following comment: 
+```
+# IMPORTANT: Students: do not change any part of the code below
+```
+<b>IMPORTANT:</b> MAKE SURE THAT YOU DO NOT MAKE ANY CHANGES TO THE CODE BELOW THAT LINE!!!
 
 <h3>Step 3: Practice writing a function to accumulate products</h3>
 
