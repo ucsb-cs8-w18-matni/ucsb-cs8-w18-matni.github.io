@@ -26,10 +26,14 @@ By the time you have completed this lab, you should be able to:
 **Step 1:** Log in, and create a lab02 directory
 Decide which one of you will be the first pilot for this lab, and then log in to the pilot's account and create a directory called lab02 inside his/her cs8 folder. You will work in this account for the rest of the lab, but remember to switch often between pilot and navigator roles during the course of the lab.
 
-Go to: http://cs.ucsb.edu/~zmatni/cs8w18/labs/lab02/lab02.py and copy the entire text.
+From inside your lab02 directory, copy a file I've made for you over with the following command:
+
+```
+cp ~zmatni/public_html/cs8w18/labs/lab02/lab02.py ./lab02.py
+```
 
 **Step 2:** Bring up IDLE as usual, and open a new window for function definitions
-Start IDLE. Then, select &quot;File-&gt;New Window&quot; and paste the text you just copied above. Put your names and today's date in the appropriate comment and save your file as <b>lab02.py</b> inside your lab02 directory.
+Start IDLE. Then, select &quot;File-&gt;Open&quot; and open the lab02.py file. Put your names and today's date in the appropriate comment and save your file as <b>lab02.py</b> inside your lab02 directory.
 
 Note that line 9 has the comment <pre># IMPORTANT: Students: do not change any part of the code below</pre>. <b>IMPORTANT:</b> MAKE SURE THAT YOU DO NOT MAKE ANY CHANGES TO THE CODE BELOW THAT LINE!!!
 
@@ -155,12 +159,11 @@ Save and run the module. Then test the function a few times (in the Python shell
 </td></tr></tbody></table>
 
 <h3>Step 8: Submit your work to submit.cs</h3>
-Your final submission, the file called lab02.py, should now have 4 functions defined therein: one for the factorial function and the other 3 for the Turtle graphics functions, drawRectangle, drawHouse, and drawBlock.
+Your final submission, the file called lab02.py, should now have 4 functions defined therein: one for the factorial function and the other 3 for the Turtle graphics functions, drawRectangle, drawHouse, and drawBlock. MAKE SURE ALL FOUR FUNCTIONS ARE COPIED INSIDE YOUR lab02.py FILE!!
 
-Navigate to that page, and upload your `lab02.py` file.
-EDIT: You will see 80/80 points, if it passes the tests. 
+Navigate to the <b>submit.cs</b> website, select <b>lab02</b>, register your partner, and then upload your `lab02.py` file. EDIT: You will see 80/80 points, if it passes the tests. 
 
-You will earn the extra 20 points (to make this lab worth a total of 100 points) as follows:
+You will earn the other 20 points (to make this lab worth a total of 100 points) as follows:
 
 1) Your TA will manually have to look at your 3 drawing functions and see that they work. This is worth 10 points. If you do not finish this part of the lab during regular hours, you will not get this 10 point credit.
 
@@ -168,7 +171,7 @@ You will earn the extra 20 points (to make this lab worth a total of 100 points)
 
 <hr>
 <p><font size="1">
-Copyright 2018, Ziad Matni, CS Dept, UC Santa Barbara. Adapted (heavily) from work by Phill Conrad and others. Permission to copy for non-commercial, non-profit, educational purposes granted, provided appropriate credit is given;  all other rights reserved
+Copyright 2018, Ziad Matni, CS Dept, UC Santa Barbara. Adapted from work by Phill Conrad and others. Permission to copy for non-commercial, non-profit, educational purposes granted, provided appropriate credit is given;  all other rights reserved
 </font></p>
 
 
