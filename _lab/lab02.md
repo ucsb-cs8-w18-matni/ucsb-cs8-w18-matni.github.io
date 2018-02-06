@@ -116,6 +116,7 @@ Save and run the module. Then test the function a few times (in the Python shell
 &gt;&gt;&gt; pat.down()
 &gt;&gt;&gt; drawRectangle(pat, 60, 80)</pre>
 
+<p>Copy the drawRectangle function into the lab02.py file just below the last function you wrote in there.</p>
 <p>After playing with pat and the drawRectangle function for awhile, move on to Step 5.</p>
 
 <h3>Step 5: Write a function to draw a house</h3>
@@ -138,6 +139,7 @@ Save and run the module. Then test the function a few times (in the Python shell
       width/height and the steepness of the roof can be different. As long as it &quot;looks like
       a house&quot;, that's good enough for this lab.</td>
 </tr></table>
+<p>Copy the drawHouse function into the lab02.py file just below the last function you wrote in there.</p>
 
 <blockquote>
 <h3>Step 6: Draw a block of houses</h3>
@@ -156,6 +158,7 @@ Save and run the module. Then test the function a few times (in the Python shell
     <p><img src="12houses.png" alt="row of houses"></p></li>
 </ul>
 </blockquote>
+<p>Copy the drawBlock function into the lab02.py file just below the last function you wrote in there.</p>
 
 <h3>Step 7: Show off your work and get credit for the lab</h3>
 <table bgcolor="yellow" border="1" cellpadding="4"><tbody><tr><td>
