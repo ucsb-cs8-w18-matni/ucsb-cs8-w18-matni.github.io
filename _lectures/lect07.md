@@ -1,7 +1,7 @@
 ---
-num: "lect07"
-desc: "Lecture #7 slides: Strings"
+num: "lect08"
+desc: "Lecture #8 slides: More on Strings"
 ready: false
-pdfurl: /lectures/CS8_Lecture7.pdf
+pdfurl: /lectures/CS8_Lecture8.pdf
 ---
 
