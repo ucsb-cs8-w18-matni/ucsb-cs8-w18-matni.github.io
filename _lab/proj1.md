@@ -1,7 +1,7 @@
 ---
 layout: lab
 num: project1
-ready: false
+ready: true
 desc: "Doing Mathematical Calculations & String Manipulations with Python"
 assigned: 2018-02-09 09:30:00.00-7
 due: 2018-02-23 23:59:59.00-7
