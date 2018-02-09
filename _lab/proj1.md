@@ -106,11 +106,11 @@ an online source. You cannot recursively call the function (that means have the 
 Here is the required function header and an appropriate comment - type or copy/paste them into your fibonacci.py file at least one blank line below the end of the factorial function:
 <pre>
 # fib - returns nth term of Fibonacci sequence:
-#     1, 1, 2, 3, 5, 8, ... So fib(6) = 8
-def fib(n):
+#     1, 1, 2, 3, 5, 8, ... So fibo(6) = 8
+def fibo(n):
 </pre>
 
-<code>fib(n)</code> - where n is the number of terms in the series.
+<code>fibo(n)</code> - where n is the number of terms in the series.
 Examples:
 If n is equal to 1, then just include the first term in the equation: <code>(1)</code>.
 If n is equal to 2, then just include the first and the second term in the equation: <code>(1 1)</code>.
@@ -129,9 +129,9 @@ enter number of terms: <b>5</b>
 1 1 2 3 5 
 </pre>
 
-Test your function thoroughly to be sure it is correct. Verify that both fib(1) and fib(2) return 1, fib(3) returns 2, and so on. You may assume that n will always be greater than 0, but find out what the function returns for 0 or negative values too, and try to understand why it returns what it does in such cases.
+Test your function thoroughly to be sure it is correct. Verify that both fibo(1) and fibo(2) return 1, fibo(3) returns 2, and so on. You may assume that n will always be greater than 0, but find out what the function returns for 0 or negative values too, and try to understand why it returns what it does in such cases.
 
-*Hint:* Another way to write this is: fib(i) = fib(i-1) + fib(i-2).  This does not mean that to calculate fib(i) you should call fib for both of the lower results.  What this really means is that the result of this iteration is dependent on your result of the last iteration and the iteration before that.  Storing those (two) partial results are the key to getting this algorithm correct.
+*Hint:* Another way to write this is: fibo(i) = fibo(i-1) + fibo(i-2).  This does not mean that to calculate fibo(i) you should call fib for both of the lower results.  What this really means is that the result of this iteration is dependent on your result of the last iteration and the iteration before that.  Storing those (two) partial results are the key to getting this algorithm correct.
 
 Remember to let both partners think about this before diving in.  Do not skip the design step, in which you work this out on paper before trying to write in Python.
 
