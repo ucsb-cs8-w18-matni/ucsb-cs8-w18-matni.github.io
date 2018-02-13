@@ -131,7 +131,7 @@ enter number of terms: <b>5</b>
 
 Test your function thoroughly to be sure it is correct. Verify that both fibo(1) and fibo(2) return 1, fibo(3) returns 2, and so on. You may assume that n will always be greater than 0, but find out what the function returns for 0 or negative values too, and try to understand why it returns what it does in such cases.
 
-*Hint:* Another way to write this is: fibo(i) = fibo(i-1) + fibo(i-2).  This does not mean that to calculate fibo(i) you should call fib for both of the lower results.  What this really means is that the result of this iteration is dependent on your result of the last iteration and the iteration before that.  Storing those (two) partial results are the key to getting this algorithm correct.
+*Hint:* Another way to write this is: fibo(i) = fibo(i-1) + fibo(i-2).  This does not mean that to calculate fibo(i) you should call fibo for both of the lower results.  What this really means is that the result of this iteration is dependent on your result of the last iteration and the iteration before that.  Storing those (two) partial results are the key to getting this algorithm correct.
 
 Remember to let both partners think about this before diving in.  Do not skip the design step, in which you work this out on paper before trying to write in Python.
 
@@ -145,7 +145,7 @@ Here F denotes the Fibonnaci function. In calculus, this relationship is express
 
 Of course, it is not necessary to plug &#8734; into the formula to <i>approximate</i> the ratio, let alone (&#8734; + 1)! Your job is: Find the smallest value of n for which the ratio is within 1.0e-10 of this approximate value of &phi;: 1.6180339887.
 
-Devise a strategy using your fib function, and other things you have learned so far in CS 8.
+Devise a strategy using your fibo function, and other things you have learned so far in CS 8.
 
 Things you should know:
 <ol>
