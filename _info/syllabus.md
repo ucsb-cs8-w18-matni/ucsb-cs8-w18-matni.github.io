@@ -16,11 +16,11 @@ Office: SSMS 4409<br/><br/>
 
 * **Piazza Site**: [piazza.com/ucsb/winter2018/cs8](https://www.piazza.com/ucsb/winter2018/cs8){: target="_blank"}<br/>
 * **TAs and their Office Hours**:<br/>
-Shiyu Ji <shiyu@umail.ucsb.edu> TBD.<br/>
-Muqsit Nawaz <mmnawaz@umail.ucsb.edu> TBD. <br/> 
-Jian Jin <jian_jin@umail.ucsb.ed> TBD. <br/>
-Yun Zhao <yunzhao@umail.ucsb.ed> TBD. <br/>
-Vivek Pradhan (Grader) <vivekpradhan@umail.ucsb.ed>. <br/>
+Shiyu Ji <shiyu@umail.ucsb.edu> Thu 4 - 6 PM.<br/>
+Muqsit Nawaz <mmnawaz@umail.ucsb.edu> Tue 4 - 6 PM. <br/> 
+Jian Jin <jian_jin@umail.ucsb.ed> Tue 11:30 AM - 1:30 PM. <br/>
+Yun Zhao <yunzhao@umail.ucsb.ed> Tue 8 - 10 AM. <br/>
+Vivek Pradhan (Grader) <vivekpradhan@umail.ucsb.ed> Thu 3 - 4 PM.<br/>
 
 * **Lab**: (50 minute sections)<br/>
 Tuesdays 1pm, 2pm, 3pm, 4pm in PHELP 3525. ATTENDANCE MANDATORY.<br/>
