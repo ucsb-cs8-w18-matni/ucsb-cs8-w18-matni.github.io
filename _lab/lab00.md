@@ -207,7 +207,7 @@ of your Python Shell window.</p>
 in a new window.</li>
 </ul>
 
-<p><a href="http://www.cs.ucsb.edu/~zmatni/cs8w17/labs/lab00/hello.py">http://www.cs.ucsb.edu/~zmatni/cs8w17/labs/lab00/hello.py</a></p>
+<p><a href="http://www.cs.ucsb.edu/~zmatni/cs8w18/labs/lab00/hello.py">http://www.cs.ucsb.edu/~zmatni/cs8w18/labs/lab00/hello.py</a></p>
 
 <p>Go ahead and read it and see if you can guess what it might do. Then "select all" of the text, "copy" it and "paste" it into the new &quot;untitled&quot; window.</p>
 
