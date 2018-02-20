@@ -8,8 +8,6 @@ due: 2018-02-21 23:59:59.00-7
 ---
 <div markdown='1'>
 
-<h1>Lab03: Strings, and Program Testing</h1>
-<hr>
 <h2>Goals for this lab</h2>
 
 By the time you have completed this lab, you should be able to:
