@@ -100,6 +100,7 @@ By the way, with our solution, a string that was previously encrypted by shiftin
 <blockquote>
 
 **Step 6:** Submit your work to submit.cs
+
 Your final submission is the file called lab03.py, which should now have just one function: rot(n, string).
 
 Navigate to the <b>submit.cs</b> website, select <b>lab03</b>, register your partner, and then upload your `lab03.py` file. EDIT: You will see 80/80 points, if it passes the tests. 
