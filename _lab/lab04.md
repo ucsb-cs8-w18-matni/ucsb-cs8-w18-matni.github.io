@@ -1,8 +1,8 @@
 ---
 layout: lab
 num: lab04
-ready: false
-desc: "xxxx"
+ready: true
+desc: "Using Lists in Python"
 assigned: 2018-02-27 08:00:00.00-7
 due: 2018-02-28 23:59:59.00-7
 ---
