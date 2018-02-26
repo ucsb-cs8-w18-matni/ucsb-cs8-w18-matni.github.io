@@ -26,7 +26,7 @@ Decide which one of you will be the first pilot for this lab, and then log in to
 Copy the file <code><a href="http://cs.ucsb.edu/~zmatni/cs8w18/labs/lab04/lab04.py" target="_blank">http://cs.ucsb.edu/~zmatni/cs8w18/labs/lab04/lab04.py</a></code> using the Linux <b>cp</b> command and place it in whatever folder you choose to work on this project (presumably <code>~/cs8/lab04/</code>).
 
 **Step 1B:** Start IDLE. Then, select &quot;File-&gt;Open&quot; and open the lab04.py that you just copied.
-Now that you have it open, you can start designing the 5 functions that you need for this lab: printSortedListAscending, printSortedListDescending, CheckList, ListAverage, ListMedian. **BE VERY CAREFUL ABOUT NAMING THE FUNCTIONS EXACTLY WHAT I ASK YOU TO NAME THEM!**
+Now that you have it open, you can start designing the 5 functions that you need for this lab: printSortedListAscending, printSortedListDescending, checkList, ListAverage, ListMedian. **BE VERY CAREFUL ABOUT NAMING THE FUNCTIONS EXACTLY WHAT I ASK YOU TO NAME THEM!**
 
 **Step 2A:** printSortedListAscending
 
@@ -72,9 +72,9 @@ And here is an example test run on Python IDLE:
 
 Test your function from the Python shell window on various types of lists with varying lengths.
 
-**Step 2C:** CheckList
+**Step 2C:** checkList
 
-Write a function named CheckList that takes as parameter a list and RETURNS a Boolean value (i.e. True or False). This return value must equal True (careful: this is a Boolean value, not a string!!) ONLY if every item in the list is an integer, otherwise, it should return False. Hint: We worked on a function like this in lecture on Monday, 2/26!
+Write a function named checkList that takes as parameter a list and RETURNS a Boolean value (i.e. True or False). This return value must equal True (careful: this is a Boolean value, not a string!!) ONLY if every item in the list is an integer, otherwise, it should return False. Hint: We worked on a function like this in lecture on Monday, 2/26!
 
 The function header should look like this:
 
@@ -92,7 +92,7 @@ True
 
 **Step 2D:** ListAverage
 
-Write a function named ListAverage that takes as parameter a list, CHECKS to see that it is all integers (using the Checklist() function from above), and, if so, RETURNS the average of the entire list contents. If the contents are deemed not be "average"-able (i.e. if at least one item in the list is not an integer), then this function must instead return a string value equal to "Not an integer list".
+Write a function named ListAverage that takes as parameter a list, CHECKS to see that it is all integers (using the checklist() function from above), and, if so, RETURNS the average of the entire list contents. If the contents are deemed not be "average"-able (i.e. if at least one item in the list is not an integer), then this function must instead return a string value equal to "Not an integer list".
 
 The function header should look like this:
 
@@ -114,7 +114,7 @@ And here is an example test run on Python IDLE:
 
 **Step 2E:** ListMedian
 
-Write a function named ListMedian that takes as parameter a list, CHECKS to see that it is all integers (using the Checklist() function from above), and, if so, RETURNS the median of the entire list contents. If the contents are have at least one item in the list is not an integer, then this function must instead return a string value equal to "Not an integer list". Hint: If you look at the slides from lecture on Monday, 2/26, you should see an example of this function.
+Write a function named ListMedian that takes as parameter a list, CHECKS to see that it is all integers (using the checklist() function from above), and, if so, RETURNS the median of the entire list contents. If the contents are have at least one item in the list is not an integer, then this function must instead return a string value equal to "Not an integer list". Hint: If you look at the slides from lecture on Monday, 2/26, you should see an example of this function.
 
 The function header should look like this:
 
@@ -144,7 +144,7 @@ And here is an example test run on Python IDLE:
 
 **Step 4:** Submit your work to submit.cs
 
-Your final submission is the file called lab04.py, which should have started out with the start-up file I gave you (see top of this document) and now have FIVE functions that you wrote: printSortedListAscending, printSortedListDescending, CheckList, ListAverage, ListMedian. **BE VERY CAREFUL ABOUT NAMING THE FUNCTIONS EXACTLY WHAT I ASK YOU TO NAME THEM AND MAKE SURE THE FILE IS CALLED lab04.py AND NOTHING ELSE!!**
+Your final submission is the file called lab04.py, which should have started out with the start-up file I gave you (see top of this document) and now have FIVE functions that you wrote: printSortedListAscending, printSortedListDescending, checkList, ListAverage, ListMedian. **BE VERY CAREFUL ABOUT NAMING THE FUNCTIONS EXACTLY WHAT I ASK YOU TO NAME THEM AND MAKE SURE THE FILE IS CALLED lab04.py AND NOTHING ELSE!!**
 
 Navigate to the <b>submit.cs</b> website, select <b>lab04</b>, register your partner, and then upload your `lab04.py` file. EDIT: You will see 80/80 points, if it passes the tests. 
 
