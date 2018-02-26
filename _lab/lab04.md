@@ -146,6 +146,8 @@ And here is an example test run on Python IDLE:
 
 Your final submission is the file called lab04.py, which should have started out with the start-up file I gave you (see top of this document) and now have FIVE functions that you wrote: printSortedListAscending, printSortedListDescending, checkList, ListAverage, ListMedian. **BE VERY CAREFUL ABOUT NAMING THE FUNCTIONS EXACTLY WHAT I ASK YOU TO NAME THEM AND MAKE SURE THE FILE IS CALLED lab04.py AND NOTHING ELSE!!**
 
+Note that the start-up file has a couple of test cases and you should run those to see how well your functions work. But note that submit.cs will test *other* test cases on your functions as well.
+
 Navigate to the <b>submit.cs</b> website, select <b>lab04</b>, register your partner, and then upload your `lab04.py` file. EDIT: You will see 80/80 points, if it passes the tests. 
 
 You will earn the other 20 points (to make this lab worth a total of 100 points) as follows:
