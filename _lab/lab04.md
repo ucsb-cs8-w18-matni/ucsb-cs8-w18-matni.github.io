@@ -74,7 +74,7 @@ Test your function from the Python shell window on various types of lists with v
 
 **Step 2C:** checkList
 
-Write a function named checkList that takes as parameter a list and RETURNS a Boolean value (i.e. True or False). This return value must equal True (careful: this is a Boolean value, not a string!!) ONLY if every item in the list is an integer, otherwise, it should return False. Hint: We worked on a function like this in lecture on Monday, 2/26!
+Write a function named checkList that takes as parameter a list and RETURNS a Boolean value (i.e. True or False). This return value must equal True (careful: this is a Boolean value, not a string!!) ONLY if every item in the list is an integer or if its a float, otherwise, it should return False. Hint: We worked on a function like this in lecture on Monday, 2/26!
 
 The function header should look like this:
 
@@ -88,11 +88,15 @@ And here is an example test run on Python IDLE:
 >>> myList = [92.5, 127.1, 9, 104.2, 78.4]
 >>> print(checkList(myList))
 True
+
+>>> myOtherList = ['abc', 23, 0.45]
+>>> print(checkList(myOtherList))
+False
 ```
 
 **Step 2D:** ListAverage
 
-Write a function named ListAverage that takes as parameter a list, CHECKS to see that it is all integers (using the checklist() function from above), and, if so, RETURNS the average of the entire list contents. If the contents are deemed not be "average"-able (i.e. if at least one item in the list is not an integer), then this function must instead return a string value equal to "Not an integer list".
+Write a function named ListAverage that takes as parameter a list, CHECKS to see that it is all integers or floats (using the checklist() function from above), and, if so, RETURNS the average of the entire list contents. If the contents are deemed not be "average"-able (i.e. if at least one item in the list is not an integer), then this function must instead return a string value equal to "Not an integer list".
 
 The function header should look like this:
 
@@ -114,7 +118,7 @@ And here is an example test run on Python IDLE:
 
 **Step 2E:** ListMedian
 
-Write a function named ListMedian that takes as parameter a list, CHECKS to see that it is all integers (using the checklist() function from above), and, if so, RETURNS the median of the entire list contents. If the contents are have at least one item in the list is not an integer, then this function must instead return a string value equal to "Not an integer list". Hint: If you look at the slides from lecture on Monday, 2/26, you should see an example of this function.
+Write a function named ListMedian that takes as parameter a list, CHECKS to see that it is all integers or floats (using the checklist() function from above), and, if so, RETURNS the median of the entire list contents. If the contents are have at least one item in the list is not an integer, then this function must instead return a string value equal to "Not an integer list". Hint: If you look at the slides from lecture on Monday, 2/26, you should see an example of this function.
 
 The function header should look like this:
 
