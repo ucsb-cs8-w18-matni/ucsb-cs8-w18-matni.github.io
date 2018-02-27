@@ -138,6 +138,8 @@ And here is an example test run on Python IDLE:
 'Not an integer list'
 ```
 
+**Important:** To make it a little easier on you, the test cases on submit.cs will only test lists that are either all numerical (i.e. made of ints and/or floats) or either all strings. The two sample test cases already in lab04.py are illustrative of this.
+
 **Step 3:** Show off your work and get credit for the lab
 
 <table bgcolor="yellow" border="1" cellpadding="4"><tbody><tr><td>
