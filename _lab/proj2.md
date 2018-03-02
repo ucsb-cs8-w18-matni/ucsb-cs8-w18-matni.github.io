@@ -1,7 +1,7 @@
 ---
 layout: lab
 num: project2
-ready: false
+ready: true
 desc: "Strings, Lists, Dictionaries, and File I/O"
 assigned: 2018-03-02 09:30:00.00-7
 due: 2018-03-16 23:59:59.00-7
