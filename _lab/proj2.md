@@ -83,8 +83,7 @@ When done, your results should match the following 2 example sample runs from ou
 
 <div markdown="1">
 ```
-**$ python3 findWord.py** 
-
+$ python3 findWord.py 
 Enter word to find (or RETURN to quit): more
 Here are all the lines that contain the word more
 5             Only this and nothing more.” 
@@ -107,9 +106,10 @@ Here are all the lines that contain the word more
 110             Quoth the Raven “Nevermore.” 
 117             Quoth the Raven “Nevermore.” 
 124             Shall be lifted—nevermore!
-**$ python3 findWord.py** 
-
-Enter word to find (or RETURN to quit): **Raven**
+```
+```
+$ python3 findWord.py
+Enter word to find (or RETURN to quit): Raven
 Here are all the lines that contain the word Raven
 43 In there stepped a stately Raven of the saintly days of yore; 
 52 Ghastly grim and ancient Raven wandering from the Nightly shore— 
