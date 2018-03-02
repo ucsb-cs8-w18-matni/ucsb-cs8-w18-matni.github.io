@@ -2,7 +2,7 @@
 layout: lab
 num: project2
 ready: false
-desc: "TBD"
+desc: "Strings, Lists, Dictionaries, and File I/O"
 assigned: 2018-03-02 09:30:00.00-7
 due: 2018-03-16 23:59:59.00-7
 ---
@@ -16,14 +16,15 @@ NOTE: This project is due on the very last day of the Winter quarter, Friday, 3/
 
 HINT: Don't wait until the last minute to do this! 
 
-It is optional, but highly recommended, to work with a partner on this project. 
+<h2>It is optional, but very highly recommended, to work with a partner on this project.</h2>
 <h1>PLEASE READ ALL THE INSTRUCTIONS CAREFULLY!!!</h1>
 
 <strong>Before you begin:</strong>
 Obtain copies of these 8 files (the first 2 are the start-up Python code files that you will edit and submit at the end):
 <ol>
-<li>    **CountChars.py**</li>
-<li>    **findWord.py**</li>
+<li>    CountChars.py</li>
+<li>    findWord.py</li>
+
 <li>    theRaven.txt</li>
 <li>    longer.txt </li>
 <li>    short.txt </li>
@@ -78,11 +79,11 @@ joe mary bob chinchilla >>>
 If you modify it further as <code>print(one, end= "")</code> (note the ABSENCE of a space characer between 
 the quotes), you will print each item immediately next to the other with no space character between them.
 
-When done, your results should match the following sample runs from our solution.
+When done, your results should match the following 2 example sample runs from our solution.
 
 <div markdown="1">
 ```
-$ python3 findWord.py 
+**$ python3 findWord.py** 
 
 Enter word to find (or RETURN to quit): more
 Here are all the lines that contain the word more
@@ -106,9 +107,9 @@ Here are all the lines that contain the word more
 110             Quoth the Raven “Nevermore.” 
 117             Quoth the Raven “Nevermore.” 
 124             Shall be lifted—nevermore!
-$ python3 findWord.py 
+**$ python3 findWord.py** 
 
-Enter word to find (or RETURN to quit): Raven
+Enter word to find (or RETURN to quit): **Raven**
 Here are all the lines that contain the word Raven
 43 In there stepped a stately Raven of the saintly days of yore; 
 52 Ghastly grim and ancient Raven wandering from the Nightly shore— 
