@@ -12,7 +12,7 @@ title: CS8, Winter 2018, zmatni
 <li><a href="{{item.url}}"  data-ajax="false">{{item.title }}</a></li>
 {% endfor %}
 </ul>
-<p><b>LAST DAY OF CLASS IS WEDNESDAY, MARCH 14th. WATCH FOR DUE DATES OF YOUR ASSIGNMENTS!</b></p>
+<p><font color="red"><b>LAST DAY OF CLASS IS WEDNESDAY, MARCH 14th. WATCH FOR DUE DATES OF YOUR ASSIGNMENTS!</b></font></p>
 <p>FINAL EXAM IS SET FOR: WEDNESDAY, MARCH 21st from 8:00 AM thru 11:00 AM.</p>
 </div>
 
