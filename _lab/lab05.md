@@ -42,7 +42,7 @@ And here is an example test run on Python IDLE (careful! the myInput.txt file MU
 ```
 >>> Lines = FileRead()
 Enter filename: /cs/student/joeshmoe/cs8/lab05/myInput.txt
-There are  16  lines in the file  myInput.txt
+There are 16 lines in the file myInput.txt
 
 ```
 
