@@ -34,9 +34,9 @@ Write a function named isPalindrome(string) that checks if string is a palindrom
 A palindrome is a string that spells backwards EXACTLY like it spells forward, so for example, the string "catac" is a palindrome, and so is "mine enim".
 Note that while "madamimadam" is a palindrome, that "madam I'm adam" is NOT because of the space characters and the single quote therein.
 
-Your solution MUST make use of one or more recursive function(s). Your solution MUST NOT include ANY for or while loops.
+**NOTE: YOU WILL GET A ZERO ON THIS ASSIGNMENT IF YOU USE ANY for OR while LOOPS IN YOUR SOLUTION!** You **must** present your solution using at least one recursive function. It is ok to have more than one function in your solution. The recursive function does not have to be the isPalindrome(string) function!
 
-HINT: Make use of one of the examples we went through in class on Monday.
+HINT: Make use of one of the examples we went through in class on Monday, March 12th (Lecture 14).
 
 **Step 2B:** 
 
@@ -63,6 +63,8 @@ You will earn the other 20 points (to make this lab worth a total of 100 points)
 1) Your TA will manually have to look at your function in lab and see that it works. This is worth 10 points. If you do not finish this part of the lab during regular hours, you will not get this 10 point credit.
 
 2) Your TA will also manually look at your submitted code on submit.cs and verify that you did the correct work AND that you have left enough comments to explain your code. This is worth another 10 points. If you use Python code or techniques that were not covered in class or are not in the textbook, you will lose these 10 points on the lab.
+
+**NOTE: YOU WILL GET A ZERO ON THIS ASSIGNMENT IF YOU USE ANY for OR while LOOPS IN YOUR SOLUTION!** You **must** present your solution using at least one recursive function. It is ok to have more than one function in your solution.
 
 <hr>
 <p><font size="1">
